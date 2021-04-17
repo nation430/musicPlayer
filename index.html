@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>musicPlayer with Js</title>
+  </head>
+  <body>
+    <h1>Music Player</h1>
+    <div class="container play">
+      <div class="info">
+        <h4 id="title">Zanku</h4>
+        <div class="progress_container">
+          <div class="progressBar"></div>
+        </div>
+      </div>
+
+      <audio src="assets/music/music1.mp3" id="audio"></audio>
+      <div class="img_container">
+        <img src="assets/imgs/img1.jpg" alt="music_cover" id="cover" />
+      </div>
+
+      <div class="navigation">
+        <button id="prev" class="action_btn">
+          <i class="fas fa-backward"></i>
+        </button>
+
+        <button id="play" class="action_btn action_btnBig">
+          <i class="fas fa-play"></i>
+        </button>
+
+        <button id="next" class="action_btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>
